@@ -68,4 +68,21 @@ body .card-description {
 body .column-card-list {
   padding: 0px; }
 
+.column {
+  position: relative; }
+  .column .btn-delete {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #7c6fa7;
+    color: #fff; }
+
+.card {
+  position: relative; }
+  .card .card-delete {
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    color: #7c6fa7; }
+
 /*# sourceMappingURL=style.css.map */
